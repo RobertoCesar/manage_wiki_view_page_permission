@@ -1,1 +1,3 @@
-
+#Portuguese locale File
+pt-BR:
+  permission_view_protected_pages:          "Visualizar páginas wiki bloqueadas"
