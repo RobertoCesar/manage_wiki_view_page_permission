@@ -2,7 +2,7 @@ module ManageWikiViewPagePermission
   module WikiControllerPatch
     def self.included(base)
       base.class_eval do
-        before_filter :validate_permission_for_protected_pages, :only=>:show
+        before_action :validate_permission_for_protected_pages, :only=>:show
         private
 
         def validate_permission_for_protected_pages
